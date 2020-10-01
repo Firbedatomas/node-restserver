@@ -1,7 +1,7 @@
 //=================
 //PUERTO
 //=================
-process.env.PORT = process.env.PORT || 3001;
+process.env.PORT = process.env.PORT || 3000;
 
 //=================
 //ENTORNO
@@ -29,3 +29,10 @@ if (process.env.NODE_ENV === 'dev') {
 
 }
 process.env.URLDB = urlDB;
+
+
+//=================
+//GOOGLE CLIENT ID
+//=================
+
+process.env.CLIENT_ID = process.env.CLIENT_ID || '725565704067-vb514dkejef0bmkmlrnb65hk9uufno2i.apps.googleusercontent.com';
